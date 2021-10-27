@@ -1,0 +1,9 @@
+name: CGUtils
+version: '1.0.0'
+main: cg.creamgod45.CGUtils
+api-version: 1.17
+prefix: CGUtils
+load: STARTUP
+authors: [ creamgod45 ]
+description: Minecraft Server utils features tools
+website: https://github.com/creamgod45

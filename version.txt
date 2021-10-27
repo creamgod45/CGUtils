@@ -1,0 +1,11 @@
+{
+  "version": "100",
+  "update-suggestion": {
+    "custom": {
+      "111": "[1.1.1] There are multiple errors in this version, please update immediately, otherwise it will cause irreversible consequences."
+    },
+    "default": {
+      "111": "[1.1.1] 此版本存在多個錯誤請立即更新，否則會造成不可逆的後果。"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+Setting:
+  # English:
+  # This option is false during the default installation, but it will be enforced if there is no config.lock in the file.
+  # If set to false, the action of updating the configuration file will be executed, and then the file will be saved in /backups
+  # 繁體中文(Traditional Chinese):
+  # 默認安裝時此選項為 false，但如果檔案中沒有 config.lock 將會強制執行。
+  # 如果設置為 false，將會執行更新設定檔案的動作，然後將會保存檔案於 /backups/config_bak_{timestamp}.yml
+  update_config: false
+  # English:
+  # This is the prefix when displaying plug-in messages
+  # 繁體中文(Traditional Chinese):
+  # 這是顯示插件訊息時的前綴
+  prefix: "&5&lCGUtils》 "
+  # English:
+  # If set to true, the Messages will become the message displayed by the plugin
+  # If set to false, the default is Traditional Chinese message
+  # 繁體中文(Traditional Chinese):
+  # 如果設置為 true，則 Messages 將成為插件顯示的訊息
+  # 如果設置為 false，默認為繁體中文訊息
+  using_custom_message: true
+Messages:
+  # English:
+  # * This plugin does not support Placeholder API *
+  # *player_name* Is a placeholder
+  # 繁體中文(Traditional Chinese):
+  # * 本插件並未支援 Placeholder API *
+  # *player_name* 是一個佔位符
+  on_load: "&2Copy config.yml to the plugin folder."
+  on_enable: "&2CGInvisibleItemFrame started successfully."
+  on_disable: "&4CGInvisibleItemFrame closed successfully."
+  on_dectect_conflict: "&4Warning that this plugin InvisibleItemFrame conflicts with each other!!&cRecommend to remove"
+  no_permission: "&cNo permission to use this operation!!"
+  file_configbak_copyed: "&eFile config.yml already backup to the /CGInvisibleItemFrame/backups/"
+  file_config_deleted: "&cFile config.yml Deleted"
+  file_io_error: "&4File IO error"
+  file_config_lock: "&f[&4lock&f]&eConfiguration file config.yml"
+  file_config_locked: "&cThe configuration file config.yml has been locked."
+  updatachecker_title: "&bUpdate Checker"
+  updatachecker_endtitle: "&bEND Update Checker"
+  updatachecker_nowversion: "&f[&cOld&f] &cNow Version"
+  updatachecker_newversion: "&f[&aNew&f] &eNew Version"
+  updatachecker_update_suggestion: "&f[&aNew&f] &eUpdate suggestion"
+  updatachecker_done: "&aYou are already the latest version"
